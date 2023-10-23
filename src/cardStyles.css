@@ -1,0 +1,38 @@
+button {
+  border: 5px solid transparent;
+  background-color: #1b64f2; /* Primary Color */
+  color: #ffffff; /* White for contrast */
+  border-radius: 40px;
+  overflow: hidden;
+  width: 150px;
+  transition: all 1.2s, border 0.5s 1.2s, box-shadow 0.3s 1.5s;
+  white-space: nowrap;
+  text-indent: 23px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button svg {
+  display: inline-block;
+  transform: translateX(300px);
+  font-weight: normal;
+  opacity: 0;
+  transition: opacity 0.1s 0.5s, transform 0.4s 0.5s;
+}
+
+button:hover {
+  text-indent: 0;
+  background-color: #1548c1; /* A darker shade for hover */
+  color: #e1f0ff; /* A lighter tint for text contrast on hover */
+  width: 250px;
+  border: 5px solid #5079d4; /* Another shade derived from the primary */
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+}
+
+button:hover svg {
+  transform: translateX(0);
+  opacity: 1;
+}
