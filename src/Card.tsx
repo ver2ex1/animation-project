@@ -29,7 +29,7 @@ const Card: React.FC<CardProps> = ({
           className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white w-[150px] cursor-pointer'
           text={title}
         />
-        <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
+        <p className='mb-3 font-normal text-gray-700 dark:text-gray-400 mt-3'>
           {description}
         </p>
         <button>

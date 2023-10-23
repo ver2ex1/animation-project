@@ -41,7 +41,9 @@ const EllipsisText: React.FC<EllipsisTextProps> = ({ text, className }) => {
       </span>
       {isTruncated && (
         <div
-          className={`absolute top-full left-1/2 transform -translate-x-1/2 z-10 text-center`}
+          className={`absolute top-full left-1/2 transform -translate-x-1/2 z-10 text-center ${
+            isTooltipVisible ? 'block' : 'hidden'
+          }`}
         >
           <div
             className={`flex justify-center items-center w-16 h-8 rounded-full opacity-0 ${

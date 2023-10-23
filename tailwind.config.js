@@ -22,6 +22,7 @@ module.exports = {
           '0%': { opacity: 1, width: '250px', height: '45px' },
           '100%': { opacity: 0 },
         },
+        fadeInNoneDisplay: { '0%': { display: 'block' } },
         anime: {
           '0%': {
             opacity: 0,

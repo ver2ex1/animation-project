@@ -89,7 +89,7 @@ function App() {
         <CursorWatcher />
       </div>
       <div
-        className='h-screen bg-white flex items-center justify-center'
+        className='h-screen bg-white flex items-center justify-center py-3'
         id='cardBlock'
       >
         <motion.div
